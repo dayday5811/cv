@@ -1,0 +1,63 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+  background-color: #fcf2f2;
+}
+
+/* Center the content */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the heading */
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style the paragraph */
+p {
+  font-size: 18px;
+  color: #8a3636;
+  line-height: 1.5;
+  animation: funAnimation 2s infinite;
+}
+
+/* Style the button */
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Add hover effect to the button */
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Define the animation */
+@keyframes funAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(8deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
